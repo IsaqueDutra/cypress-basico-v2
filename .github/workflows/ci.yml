@@ -1,7 +1,7 @@
 name: End-to-end tests 🧪
 on: [push]
 jobs:
-  cypress-run:
+  cypress-runner:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
